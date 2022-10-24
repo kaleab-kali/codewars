@@ -10,3 +10,5 @@ def create_phone_number(n):
     strnew = list(map(str,n))
     strlist = "".join(strnew)
     return "({}) {}-{}".format(strlist[:3],strlist[3:6],strlist[6:])
+
+create_phone_number([1, 2, 3, 4, 5, 6, 7, 8, 9, 0])
